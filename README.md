@@ -9,7 +9,7 @@ This repository is designed for hosting multiple reusable agent skills in one Gi
 ## Repository layout
 
 ```text
-my-agent-skills/
+vv-skills/
 ├── README.md
 ├── skills.sh.json
 ├── skills/
