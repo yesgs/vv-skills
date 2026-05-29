@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Agent Workflows",
+      "description": "Reusable coding-agent workflows for planning, handoff, refactoring, and disciplined development.",
+      "skills": [
+        "superpowers-planning-workflow"
+      ]
+    }
+  ]
+}
