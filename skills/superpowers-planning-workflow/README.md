@@ -2,6 +2,14 @@
 
 A reusable skill for combining Superpowers with planning-with-files.
 
+## Recommended install
+
+Install upstream Superpowers, planning-with-files, and this workflow together:
+
+```bash
+npx skills add obra/superpowers --skill '*' -a codex -y && npx skills add mxyhi/ok-skills --skill planning-with-files -a codex -y && npx skills add yesgs/vv-skills --skill superpowers-planning-workflow -a codex -y
+```
+
 ## Use when
 
 - Starting a new project.

@@ -10,7 +10,7 @@ This skill combines two complementary workflows:
 - **Superpowers**: software-engineering discipline, including brainstorming, design, implementation planning, TDD, code review, and finishing branches.
 - **planning-with-files**: persistent project memory, including `task_plan.md`, `findings.md`, `progress.md`, decisions, errors, test results, and handoff notes.
 
-Superpowers is an optional external dependency. If Superpowers skills are installed, invoke the relevant `superpowers:*` skills when their trigger conditions apply. If they are not installed, follow the workflow principles described here directly instead of invoking external Superpowers skills.
+Superpowers and planning-with-files are optional external dependencies. If Superpowers skills are installed, invoke the relevant `superpowers:*` skills when their trigger conditions apply. If `planning-with-files` is installed, use it for persistent task files and session recovery. If either dependency is not installed, follow the workflow principles described here directly instead of invoking external skills.
 
 Use this skill for complex tasks that involve multiple files, multiple sessions, unclear requirements, legacy-code exploration, or long-running implementation work.
 

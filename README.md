@@ -28,12 +28,12 @@ vv-skills/
     └── install-with-superpowers.sh
 ```
 
-## Install with Superpowers
+## Install with Dependencies
 
-`skills.sh` does not currently provide transitive skill dependencies. To install this workflow with the upstream Superpowers skills, run:
+`skills.sh` does not currently provide transitive skill dependencies. To install this workflow with upstream Superpowers and planning-with-files, run:
 
 ```bash
-npx skills add obra/superpowers --skill '*' -a codex -y && npx skills add yesgs/vv-skills --skill superpowers-planning-workflow -a codex -y
+npx skills add obra/superpowers --skill '*' -a codex -y && npx skills add mxyhi/ok-skills --skill planning-with-files -a codex -y && npx skills add yesgs/vv-skills --skill superpowers-planning-workflow -a codex -y
 ```
 
 If you have cloned this repo, you can use the helper script:
@@ -45,7 +45,7 @@ If you have cloned this repo, you can use the helper script:
 Global install:
 
 ```bash
-npx skills add obra/superpowers --skill '*' -a codex -g -y && npx skills add yesgs/vv-skills --skill superpowers-planning-workflow -a codex -g -y
+npx skills add obra/superpowers --skill '*' -a codex -g -y && npx skills add mxyhi/ok-skills --skill planning-with-files -a codex -g -y && npx skills add yesgs/vv-skills --skill superpowers-planning-workflow -a codex -g -y
 ```
 
 Or with the helper script:
