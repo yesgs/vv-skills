@@ -1,4 +1,6 @@
-# my-agent-skills
+# vv-skills
+
+[![skills.sh](https://skills.sh/b/yesgs/vv-skills)](https://skills.sh/yesgs/vv-skills)
 
 A multi-skill repository for Claude Code / skills.sh.
 
@@ -27,22 +29,20 @@ my-agent-skills/
 
 ## Install one skill from this repo
 
-Replace `OWNER/REPO` with your GitHub repo path.
-
 ```bash
-npx skills add OWNER/REPO --skill superpowers-planning-workflow -a claude-code
+npx skills add yesgs/vv-skills --skill superpowers-planning-workflow -a codex
 ```
 
 Global install:
 
 ```bash
-npx skills add OWNER/REPO --skill superpowers-planning-workflow -a claude-code -g
+npx skills add yesgs/vv-skills --skill superpowers-planning-workflow -a codex -g
 ```
 
 List skills discovered in this repo:
 
 ```bash
-npx skills add OWNER/REPO --list
+npx skills add yesgs/vv-skills --list
 ```
 
 ## Add another skill
@@ -64,7 +64,7 @@ Then edit the generated files and commit them.
 ## Publish to skills.sh
 
 1. Push this repo to GitHub.
-2. Install one skill using `npx skills add OWNER/REPO --skill <skill-name> -a claude-code`.
+2. Install one skill using `npx skills add yesgs/vv-skills --skill <skill-name> -a codex`.
 3. After skills.sh receives installation telemetry, the repo/skill can appear on skills.sh.
 
 ## Notes
